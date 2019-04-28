@@ -3,7 +3,9 @@ import java.util.Stack;
 public class BinarySearchTree {
 	
 	private Node headNode;
+	@SuppressWarnings("unused")
 	private Node currNode;
+	@SuppressWarnings("unused")
 	private int nodeCount;
 	
 	BinarySearchTree()
@@ -16,7 +18,6 @@ public class BinarySearchTree {
 	{
 		Node temp = headNode.getLeft();
 		Node q = new Node(item);
-		Node par = null;		
 		String str = ((Customer) item).getName();
 		
 		if(headNode.getLeftTag() == '-')

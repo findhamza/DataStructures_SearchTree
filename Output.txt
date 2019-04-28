@@ -1,0 +1,66 @@
+INSERTION: 
+IL USED		NAME: McManus       |NUMBER: 2951492|
+IL USED		NAME: Figueroa      |NUMBER: 2911864|
+IR USED		NAME: Wimalasekara  |NUMBER: 2951601|
+IL USED		NAME: Parker        |NUMBER: 2936122|
+IL USED		NAME: Abo-Shear     |NUMBER: 2951882|
+IR USED		NAME: Syed          |NUMBER: 2917890|
+IR USED		NAME: Khadka        |NUMBER: 2948075|
+IL USED		NAME: Musco         |NUMBER: 5843622|
+
+Found Using Iterative
+NAME: Musco         |NUMBER: 5843622|
+
+Found Using Recursive
+NAME: Musco         |NUMBER: 5843622|
+
+Found Using Iterative
+NAME: Parker        |NUMBER: 2936122|
+
+Found Using Recursive
+NAME: Parker        |NUMBER: 2936122|
+
+
+In Order Print Starting With Figueroa
+
+Found Using Iterative
+NAME: Figueroa      |NUMBER: 2911864|
+- NAME: Khadka        |NUMBER: 2948075| -
++ NAME: McManus       |NUMBER: 2951492| +
+- NAME: Musco         |NUMBER: 5843622| -
++ NAME: Parker        |NUMBER: 2936122| +
+- NAME: Syed          |NUMBER: 2917890| -
++ NAME: Wimalasekara  |NUMBER: 2951601| -
+- NAME: Abo-Shear     |NUMBER: 2951882| -
++ NAME: Figueroa      |NUMBER: 2911864| +
+
+INSERTION: 
+IR USED		NAME: Bolen         |NUMBER: 2941568|
+IL USED		NAME: Skinner       |NUMBER: 2941882|
+IR USED		NAME: Krischke      |NUMBER: 2956622|
+
+In Order Print Starting With Head Node
+- NAME: Abo-Shear     |NUMBER: 2951882| +
+- NAME: Bolen         |NUMBER: 2941568| -
++ NAME: Figueroa      |NUMBER: 2911864| +
+- NAME: Khadka        |NUMBER: 2948075| +
+- NAME: Krischke      |NUMBER: 2956622| -
++ NAME: McManus       |NUMBER: 2951492| +
+- NAME: Musco         |NUMBER: 5843622| -
++ NAME: Parker        |NUMBER: 2936122| +
+- NAME: Skinner       |NUMBER: 2941882| -
++ NAME: Syed          |NUMBER: 2917890| -
++ NAME: Wimalasekara  |NUMBER: 2951601| -
+
+Pre Order Print Starting With Head Node
++ NAME: McManus       |NUMBER: 2951492| +
++ NAME: Figueroa      |NUMBER: 2911864| +
+- NAME: Abo-Shear     |NUMBER: 2951882| +
+- NAME: Bolen         |NUMBER: 2941568| -
+- NAME: Khadka        |NUMBER: 2948075| +
+- NAME: Krischke      |NUMBER: 2956622| -
++ NAME: Wimalasekara  |NUMBER: 2951601| -
++ NAME: Parker        |NUMBER: 2936122| +
+- NAME: Musco         |NUMBER: 5843622| -
++ NAME: Syed          |NUMBER: 2917890| -
+- NAME: Skinner       |NUMBER: 2941882| -

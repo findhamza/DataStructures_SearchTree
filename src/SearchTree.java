@@ -1,8 +1,13 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 
 public class SearchTree {
 
-	public static void main(String[] args)
+	public static void main(String[] args) throws FileNotFoundException
 	{
+		System.setOut(new PrintStream(new FileOutputStream("Output.txt")));
+		
 		BinarySearchTree bsTree = new BinarySearchTree();
 
 		System.out.println("INSERTION: ");
